@@ -35,11 +35,11 @@ def clean_text(text: str) -> str:
 
 # ✅ 벡터DB 로딩
 kor_vector_paths = {
-    "IFRS_S1": r"D:\bit_esg\python\esg_chatbot_project\src\vector_finish\KOKRvectorstores\KOKRvectorstores\KOR_IFRS_S1_2nd",
-    "IFRS_S2": r"D:\bit_esg\python\esg_chatbot_project\src\vector_finish\KOKRvectorstores\KOKRvectorstores\KOR_IFRS_S2_2nd",
-    "KSSB1": r"D:\bit_esg\python\esg_chatbot_project\src\vector_finish\KOKRvectorstores\KOKRvectorstores\KSSB_01_2nd",
-    "KSSB2": r"D:\bit_esg\python\esg_chatbot_project\src\vector_finish\KOKRvectorstores\KOKRvectorstores\KSSB_02_2nd",
-    "KSSB101": r"D:\bit_esg\python\esg_chatbot_project\src\vector_finish\KOKRvectorstores\KOKRvectorstores\KSSB_101_2nd",
+    "IFRS_S1": r"D:\bit_esg\python\esg_chatbot_project\src\CHUNK\KOREAN\KORvectorstores\KOR_IFRS_S1_2nd",
+    "IFRS_S2": r"D:\bit_esg\python\esg_chatbot_project\src\CHUNK\KOREAN\KORvectorstores\KOR_IFRS_S2_2nd",
+    "KSSB1": r"D:\bit_esg\python\esg_chatbot_project\src\CHUNK\KOREAN\KORvectorstores\KSSB_01_2nd",
+    "KSSB2": r"D:\bit_esg\python\esg_chatbot_project\src\CHUNK\KOREAN\KORvectorstores\KSSB_02_2nd",
+    "KSSB101": r"D:\bit_esg\python\esg_chatbot_project\src\CHUNK\KOREAN\KORvectorstores\KSSB_101_2nd",
 }
 
 kor_dbs = {

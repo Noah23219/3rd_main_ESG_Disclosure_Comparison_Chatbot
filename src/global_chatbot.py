@@ -35,13 +35,13 @@ def clean_text(text: str) -> str:
 
 # ✅ 기준서별 벡터 DB 로드
 vectorstore_paths = {
-    "GRI": r"D:\bit_esg\python\esg_chatbot_project\src\vector_finish\vectorstores\GRI_01_2nd",
-    "IFRS_S1": r"D:\bit_esg\python\esg_chatbot_project\src\vector_finish\vectorstores\IFRS_01_2nd",
-    "IFRS_S2": r"D:\bit_esg\python\esg_chatbot_project\src\vector_finish\vectorstores\IFRS_02_2nd",
-    "TCFD": r"D:\bit_esg\python\esg_chatbot_project\src\vector_finish\vectorstores\TFCD_01_2nd",
-    "KSSB1": r"D:\bit_esg\python\esg_chatbot_project\src\vector_finish\vectorstores\KSSB_01_2nd",
-    "KSSB2": r"D:\bit_esg\python\esg_chatbot_project\src\vector_finish\vectorstores\KSSB_02_2nd",
-    "KSSB101": r"D:\bit_esg\python\esg_chatbot_project\src\vector_finish\vectorstores\KSSB_101_2nd"
+    "GRI": r"D:\bit_esg\python\esg_chatbot_project\src\CHUNK\ENGLISH\ENGvectorstores\GRI_01_2nd",
+    "IFRS_S1": r"D:\bit_esg\python\esg_chatbot_project\src\CHUNK\ENGLISH\ENGvectorstores\IFRS_01_2nd",
+    "IFRS_S2": r"D:\bit_esg\python\esg_chatbot_project\src\CHUNK\ENGLISH\ENGvectorstores\IFRS_02_2nd",
+    "TCFD": r"D:\bit_esg\python\esg_chatbot_project\src\CHUNK\ENGLISH\ENGvectorstores\TFCD_01_2nd",
+    "KSSB1": r"D:\bit_esg\python\esg_chatbot_project\src\CHUNK\ENGLISH\ENGvectorstores\KSSB_01_2nd",
+    "KSSB2": r"D:\bit_esg\python\esg_chatbot_project\src\CHUNK\ENGLISH\ENGvectorstores\KSSB_02_2nd",
+    "KSSB101": r"D:\bit_esg\python\esg_chatbot_project\src\CHUNK\ENGLISH\ENGvectorstores\KSSB_101_2nd"
 }
 
 dbs = {
